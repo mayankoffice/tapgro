@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css */
+.icons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons {
+  width: 120px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  margin-right: 20px; /* Add spacing between images */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .icons {
+    width: calc(50% - 20px); /* 50% width minus margin for 2 images in one line */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add spacing between images */
+    margin-bottom: 20px; /* Add spacing between lines */
+  }
+
+  .icons:nth-child(2n) {
+    margin-right: 0; /* Remove margin for the second image in the line */
+  }
+}
+
+
+  
