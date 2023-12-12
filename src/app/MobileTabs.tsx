@@ -38,7 +38,7 @@ export function MobileTabs() {
       <Tabs orientation="vertical">
         <TabsHeader placeholder="YourPlaceholderValue">
           {data.map(({ label, value }) => (
-            <Tab className="h-40" key={value} value={value}>
+            <Tab placeholder="YourPlaceholderValue" className="h-40" key={value} value={value}>
               {label}
             </Tab>
           ))}
