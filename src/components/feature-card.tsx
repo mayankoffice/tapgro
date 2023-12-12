@@ -14,7 +14,7 @@ import {
   export function FeatureCard({ icon: Icon, title, children }: FeatureCardProps) {
     return (
       <Card placeholder="" color="transparent" shadow={false}>
-        <CardBody className="grid justify-start">
+        <CardBody className="grid justify-start" placeholder="">
           <div className="mb-4 grid h-12 w-12 place-content-center rounded-lg bg-gray-900 p-2.5 text-left text-white">
             <Icon className="h-6 w-6" />
           </div>
