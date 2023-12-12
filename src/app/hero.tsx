@@ -43,6 +43,7 @@ function Hero() {
             </span>
             <div>
               <Button
+              placeholder="YourPlaceholderValue"
                 size="lg"
                 color="orange"
                 onClick={openPopup}
