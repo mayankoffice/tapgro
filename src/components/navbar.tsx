@@ -94,6 +94,7 @@ export function Navbar() {
         <div className="hidden gap-2 lg:flex lg:items-center">
           <a href="https://twitter.com/tapgroofficial" className="hover:translate-y-1" target="_blank">
             <IconButton
+            placeholder=""
               variant="text"
               color={isScrolling ? "gray" : "white"}
               size="sm"
@@ -103,6 +104,7 @@ export function Navbar() {
           </a>
           <a href="https://www.instagram.com/tapgroofficial/" className="hover:translate-y-1" target="_blank">
             <IconButton
+            placeholder=""
               variant="text"
               color={isScrolling ? "gray" : "white"}
               size="sm"
@@ -112,6 +114,7 @@ export function Navbar() {
           </a>
           <a href="https://www.facebook.com/tapgroofficial/" className="hover:translate-y-1" target="_blank">
             <IconButton
+            placeholder=""
               variant="text"
               color={isScrolling ? "gray" : "white"}
               size="sm"
@@ -126,6 +129,7 @@ export function Navbar() {
           </a>
         </div>
         <IconButton
+        placeholder=""
           variant="text"
           color={isScrolling ? "gray" : "white"}
           onClick={handleOpen}
@@ -148,17 +152,17 @@ export function Navbar() {
           </ul>
           <div className="mt-4 flex items-center gap-2">
             <a href="https://twitter.com/tapgroofficial" target="_blank">
-              <IconButton variant="text" color="gray" size="sm">
+              <IconButton placeholder="" variant="text" color="gray" size="sm">
                 <i className="fa-brands fa-twitter text-base" />
               </IconButton>
             </a>
             <a href="https://www.facebook.com/tapgroofficial/">
-              <IconButton variant="text" color="gray" size="sm">
+              <IconButton placeholder="" variant="text" color="gray" size="sm">
                 <i className="fa-brands fa-facebook text-base" />
               </IconButton>
             </a>
             <a href="https://www.instagram.com/tapgroofficial/">
-              <IconButton variant="text" color="gray" size="sm">
+              <IconButton placeholder="" variant="text" color="gray" size="sm">
                 <i className="fa-brands fa-instagram text-base" />
               </IconButton>
             </a>
