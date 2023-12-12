@@ -60,6 +60,7 @@ export function Navbar() {
 
   return (
     <MTNavbar
+    placeholder=""
       fullWidth
       shadow={true}
       blurred={false}
