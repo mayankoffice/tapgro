@@ -6,6 +6,7 @@ import MobileConvenience from "./mobile-convenience";
 import Testimonials from "./testimonials";
 import Faqs from "./faqs";
 import { Contact } from "./Contact";
+import { MobileTabs } from "./MobileTabs";
 
 export default function Campaign() {
   return (
@@ -15,7 +16,7 @@ export default function Campaign() {
       <VideoIntro />
       <IconsSection />
       <div className="lg:hidden"> {/* Hide MobileTabs on desktop */}
-        {/* <MobileTabs /> */}
+        <MobileTabs />
       </div>
       <div className="hidden lg:block"> {/* Hide MobileConvenience on mobile */}
         <MobileConvenience />
