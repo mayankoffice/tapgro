@@ -6,7 +6,6 @@ import MobileConvenience from "./mobile-convenience";
 import Testimonials from "./testimonials";
 import Faqs from "./faqs";
 import { Contact } from "./Contact";
-import { MobileTabs } from "./MobileTabs";
 
 export default function Campaign() {
   return (
