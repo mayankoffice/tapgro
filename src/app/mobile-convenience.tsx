@@ -18,10 +18,11 @@ export function MobileConvenience() {
           alt="iphone-photo"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography placeholder="" variant="h2" color="blue-gray" className="mb-4">
           Free Banners/Creatives
           </Typography>
           <Typography
+          placeholder=""
             variant="lead"
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
           >
@@ -32,10 +33,11 @@ export function MobileConvenience() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography placeholder="" variant="h2" color="blue-gray" className="mb-4">
           One click WhatsApp Marketing
           </Typography>
           <Typography
+          placeholder=""
             variant="lead"
             className="mb-5 px-4 text-left text-xl !text-gray-500 lg:px-0"
           >
@@ -60,10 +62,11 @@ export function MobileConvenience() {
           alt="Automated"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography placeholder="" variant="h2" color="blue-gray" className="mb-4">
           Automated Reminders
           </Typography>
           <Typography
+          placeholder=""
             variant="lead"
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
           >
