@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Typography, Button } from "@material-tailwind/react";
-import PopupForm from "./PopupForm"; // Adjust the path accordingly
+import PopupForm from "./PopupForm";
 
 function Hero() {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -43,7 +43,7 @@ function Hero() {
             </span>
             <div>
               <Button
-              placeholder="YourPlaceholderValue"
+                placeholder=""
                 size="lg"
                 color="orange"
                 onClick={openPopup}
