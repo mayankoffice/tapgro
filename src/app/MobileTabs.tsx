@@ -43,10 +43,10 @@ export function MobileTabs() {
             </Tab>
           ))}
         </TabsHeader>
-        <TabsBody>
+        <TabsBody placeholder="YourPlaceholderValue">
           
           {data.map(({ value, Image ,desc }) => (
-            <TabPanel key={value} value={value} className="py-0">
+            <TabPanel key={value} value={value} className="py-0" placeholder="YourPlaceholderValue">
               {Image}
               {desc}
             </TabPanel>
