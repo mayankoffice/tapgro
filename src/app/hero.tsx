@@ -22,6 +22,7 @@ function Hero() {
           <div className="col-span-1">
             <Typography
               variant="h1"
+              placeholder=""
               style={{ fontSize: "3rem" }}
               color="white"
               className="text-left font-serif"
