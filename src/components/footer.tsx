@@ -97,27 +97,27 @@ export function Footer() {
           </Typography>
           <div className="flex items-center">
             <a href="">
-            <IconButton variant="text" className="hover:text-orange-500" color="white">
+            <IconButton placeholder="" variant="text" className="hover:text-orange-500" color="white">
               <i className="fa-brands fa-twitter text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
             <a href="">
-            <IconButton variant="text" className="hover:text-orange-500" color="white">
+            <IconButton placeholder="" variant="text" className="hover:text-orange-500" color="white">
               <i className="fa-brands fa-linkedin text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
             <a href="">
-            <IconButton variant="text"className="hover:text-orange-500" color="white">
+            <IconButton placeholder="" variant="text"className="hover:text-orange-500" color="white">
               <i className="fa-brands fa-facebook text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
             <a href="">
-            <IconButton variant="text" className="hover:text-orange-500" color="white">
+            <IconButton placeholder="" variant="text" className="hover:text-orange-500" color="white">
               <i className="fa-brands fa-github text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
             <a href="">
-            <IconButton variant="text" className="hover:text-orange-500" color="white">
+            <IconButton placeholder="" variant="text" className="hover:text-orange-500" color="white">
               <i className="fa-brands fa-dribbble text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
