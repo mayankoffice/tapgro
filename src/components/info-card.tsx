@@ -10,7 +10,7 @@ interface InfoCardProps {
 
 export function InfoCard({ title, children }: InfoCardProps) {
   return (
-    <Card color="transparent" shadow={false}>
+    <Card placeholder="" color="transparent" shadow={false}>
       <CardBody className="grid px-0">
         <Typography variant="h2" color="blue-gray" className="mb-2">
           {title}
