@@ -16,7 +16,7 @@ export default function Campaign() {
       <VideoIntro />
       <IconsSection />
       <div className="lg:hidden"> {/* Hide MobileTabs on desktop */}
-        <MobileTabs />
+        {/* <MobileTabs /> */}
       </div>
       <div className="hidden lg:block"> {/* Hide MobileConvenience on mobile */}
         <MobileConvenience />
