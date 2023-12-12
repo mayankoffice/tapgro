@@ -67,6 +67,7 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography
+        placeholder=""
           as="a"
           href=""
           variant="h6"
