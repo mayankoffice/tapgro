@@ -126,7 +126,7 @@ export function Navbar() {
             </IconButton>
           </a>
           <a href="#contact">
-            <Button className="hover:translate-y-1" color={isScrolling ? "orange" : "orange"} size="sm">
+            <Button placeholder="" className="hover:translate-y-1" color={isScrolling ? "orange" : "orange"} size="sm">
               Contact Now
             </Button>
           </a>
@@ -170,7 +170,7 @@ export function Navbar() {
               </IconButton>
             </a>
             <a href="" target="_blank">
-              <Button color="gray" size="sm" className="ml-auto">
+              <Button placeholder="" color="gray" size="sm" className="ml-auto">
                 Contact
               </Button>
             </a>
