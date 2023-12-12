@@ -12,6 +12,7 @@ export function Footer() {
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
             <Typography
+            placeholder=""
               as="a"
               href=""
               target="_blank"
@@ -28,13 +29,14 @@ export function Footer() {
           />
               TapGro
             </Typography>
-            <Typography color="white" className="mb-12 font-normal">
+            <Typography placeholder="" color="white" className="mb-12 font-normal">
               The reward for getting on the stage is fame.
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
                   <Typography
+                  placeholder=""
                     as="a"
                     href="#"
                     color="white"
@@ -49,11 +51,12 @@ export function Footer() {
             </ul>
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography variant="h6" color="white" className="mb-3">
+            <Typography placeholder="" variant="h6" color="white" className="mb-3">
               Get the app
             </Typography>
             <div className="flex flex-col gap-2">
               <Button
+              placeholder=""
                 color="white"
                 className="flex items-center justify-center"
               >
@@ -67,6 +70,7 @@ export function Footer() {
                 App Store
               </Button>
               <Button
+              placeholder=""
                 color="white"
                 className="flex items-center justify-center"
               >
@@ -84,6 +88,7 @@ export function Footer() {
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center border-t border-gray-700 justify-between">
           <Typography
+          placeholder=""
             color="white"
             className="text-center font-normal opacity-75"
           >
