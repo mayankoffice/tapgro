@@ -17,6 +17,7 @@ function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
       <Typography
+      placeholder=""
         as="a"
         href={href || "#"}
         variant="small"
