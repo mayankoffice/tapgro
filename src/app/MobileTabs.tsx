@@ -44,6 +44,7 @@ export function MobileTabs() {
           ))}
         </TabsHeader>
         <TabsBody>
+          
           {data.map(({ value, Image ,desc }) => (
             <TabPanel key={value} value={value} className="py-0">
               {Image}
