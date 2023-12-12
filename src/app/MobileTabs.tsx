@@ -35,6 +35,7 @@ export function MobileTabs() {
 
   return (
     <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center">
+      <h2 className="font-bold text-5xl mt-5 tracking-tight text-center">But Also</h2>
       <Tabs orientation="vertical">
         <TabsHeader placeholder="YourPlaceholderValue">
           {data.map(({ label, value }) => (

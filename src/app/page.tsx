@@ -11,20 +11,20 @@ import { MobileTabs } from "./MobileTabs";
 export default function Campaign() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <VideoIntro />
-      <IconsSection />
+      <Navbar/>
+      <Hero/>
+      <VideoIntro/>
+      <IconsSection/>
       <div className="lg:hidden"> {/* Hide MobileTabs on desktop */}
-        <MobileTabs />
+        <MobileTabs/>
       </div>
       <div className="hidden lg:block"> {/* Hide MobileConvenience on mobile */}
-        <MobileConvenience />
+        <MobileConvenience/>
       </div>
-      <Testimonials />
-      <Faqs />
-      <Contact />
-      <Footer />
+      <Testimonials/>
+      <Faqs/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }

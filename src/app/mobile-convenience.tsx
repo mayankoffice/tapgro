@@ -8,7 +8,7 @@ import { Typography} from "@material-tailwind/react";
 export function MobileConvenience() {
   return (
     <section className="py-20 px-8">
-      <h2 className="font-bold text-5xl mt-5 tracking-tight text-center" ></h2>
+      <h2 className="font-bold text-5xl mt-5 tracking-tight text-center">But Also,</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
         <Image
           width={256}
@@ -74,6 +74,7 @@ export function MobileConvenience() {
           </Typography>
         </div>
       </div>
+      <h2 className="font-bold text-5xl mt-5 tracking-tight text-center">Exclusively on TapGro...!!</h2>
     </section>
   );
 }
