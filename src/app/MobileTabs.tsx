@@ -36,7 +36,7 @@ export function MobileTabs() {
   const defaultActiveTab = "html";
   return (
     <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center">
-      <h2 className="font-bold text-5xl mt-5 tracking-tight text-center">But Also</h2>
+      <h2 className="font-bold text-5xl tracking-tight text-center" style={{marginBottom:'5rem'}}>But Also</h2>
       <Tabs orientation="vertical" value={defaultActiveTab}>
         <TabsHeader placeholder="">
           {data.map(({ label, value }) => (

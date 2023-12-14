@@ -10,7 +10,7 @@ const TESTIMONIALS = [
     feedback:
       "It has been a game-changer for my business. Their dedication, expertise, and attention to detail have truly set them apart. I highly recommend their services!",
     client: "Imran",
-    title: "Salon Owner",
+    title: "Salon Owner @ Blunt",
     img: "/image/imrann.png",
   },
   {
