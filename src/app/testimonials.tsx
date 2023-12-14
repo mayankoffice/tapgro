@@ -35,16 +35,14 @@ export function Testimonials() {
       <div className="container mx-auto">
         <div className="mb-20 flex w-full flex-col items-center">
           <Typography placeholder="" variant="h2" color="blue-gray" className="mb-2">
-            What Clients Say
+          What are prospect clients say ?
           </Typography>
           <Typography
           placeholder=""
             variant="lead"
             className="max-w-3xl text-center !text-gray-600"
           >
-            Discover what our valued clients have to say about their experiences
-            with our services. We take pride in delivering exceptional results
-            and fostering lasting partnerships.
+            While developing the product, we had done surveys to have an opinion of salon owners, managers, individuial artists on the problems our App is solving.
           </Typography>
         </div>
         <div className="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-3 lg:px-20">

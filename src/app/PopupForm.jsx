@@ -72,9 +72,8 @@ const PopupForm = ({ onClose }) => {
             <select
               id="company"
               name="company"
-              className="block py-2.5 dark:text-white dark:border-gray-600 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 peer"
+              className="block py-2.5 dark:text-white text-gray-500 dark:border-gray-600 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 peer"
               required
-              style={{color:'white'}}
             >
               <option value="Select Business Categories:">Select Business Categories:</option>
               <option value="Beauty Parlour">Beauty Parlour</option>
