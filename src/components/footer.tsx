@@ -30,7 +30,7 @@ export function Footer() {
               TapGro
             </Typography>
             <Typography placeholder="" color="white" className="mb-12 font-normal">
-              SAAS for beauty Industris
+              SAAS for beauty Industry
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
