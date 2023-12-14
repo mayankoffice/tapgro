@@ -9,23 +9,23 @@ const TESTIMONIALS = [
   {
     feedback:
       "It has been a game-changer for my business. Their dedication, expertise, and attention to detail have truly set them apart. I highly recommend their services!",
-    client: "Jessica Devis",
-    title: "CEO @ MARKETING DIGITAL LTD.",
-    img: "/image/avatar1.jpg",
+    client: "Imran",
+    title: "Salon Owner",
+    img: "/image/imrann.png",
   },
   {
     feedback:
       "It understood my unique needs and delivered a tailored solution promptly. Their customer support is top-notch, and I appreciate their commitment.",
-    client: "Mary Joshiash",
-    title: "MARKETING @ APPLE INC.",
-    img: "/image/avatar2.jpg",
+    client: "Vikram",
+    title: "Salon Manager @ Nayledit",
+    img: "/image/Vikram.png",
   },
   {
     feedback:
       "They not only met but exceeded our expectations. Their innovative approach and technical proficiency have been instrumental in our success.",
-    client: "Marcell Glock",
-    title: "CFO @ APPLE INC..",
-    img: "/image/avatar3.jpg",
+    client: "Dilip",
+    title: "Salon Owner @ RD Nails",
+    img: "/image/Dilip.png",
   },
 ];
 

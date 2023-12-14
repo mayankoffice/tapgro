@@ -33,18 +33,19 @@ export function MobileTabs() {
     },
   ];
 
+  const defaultActiveTab = "html";
   return (
     <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center">
       <h2 className="font-bold text-5xl mt-5 tracking-tight text-center">But Also</h2>
-      <Tabs orientation="vertical">
-        <TabsHeader placeholder="YourPlaceholderValue">
+      <Tabs orientation="vertical" value={defaultActiveTab}>
+        <TabsHeader placeholder="">
           {data.map(({ label, value }) => (
-            <Tab placeholder="YourPlaceholderValue" className="h-40" key={value} value={value}>
+            <Tab placeholder="" className="h-40" key={value} value={value}>
               {label}
             </Tab>
           ))}
         </TabsHeader>
-        <TabsBody placeholder="YourPlaceholderValue">
+        <TabsBody placeholder="">
           
           {data.map(({ value, Image ,desc }) => (
             <TabPanel key={value} value={value} className="py-0">

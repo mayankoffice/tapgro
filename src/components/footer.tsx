@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Typography, IconButton, Button } from "@material-tailwind/react";
 
-const LINKS = ["About Us", "Careers", "Press", "Blog", "Pricing"];
+const LINKS = ["Home", "Features", "FAQ", "Contact Us"];
 const CURRENT_YEAR = new Date().getFullYear();
 export function Footer() {
   return (
@@ -12,7 +12,7 @@ export function Footer() {
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
             <Typography
-            placeholder=""
+              placeholder=""
               as="a"
               href=""
               target="_blank"
@@ -20,17 +20,17 @@ export function Footer() {
               color="white"
               className="mb-4 flex"
             >
-                <Image
-            width={256}
-            height={256}
-            src="/logos/logo.png"
-            className="mr-2 h-6 w-6"
-            alt="ios"
+            <Image
+                 width={256}
+                 height={256}
+                 src="/logos/logo.png"
+                 className="mr-2 h-6 w-6"
+                 alt="ios"
           />
               TapGro
             </Typography>
             <Typography placeholder="" color="white" className="mb-12 font-normal">
-              The reward for getting on the stage is fame.
+              SAAS for beauty Industris
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
@@ -52,7 +52,7 @@ export function Footer() {
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography placeholder="" variant="h6" color="white" className="mb-3">
-              Get the app
+              Coming Soon
             </Typography>
             <div className="flex flex-col gap-2">
               <Button
@@ -93,32 +93,37 @@ export function Footer() {
             className="text-center font-normal opacity-75"
           >
             &copy; {CURRENT_YEAR} Made by{" "}
-              TapGro.
+              TapGro Technologies Private Limited.
           </Typography>
           <div className="flex items-center">
-            <a href="">
+            <a href="https://twitter.com/tapgroofficial">
             <IconButton placeholder="" variant="text" className="hover:text-orange-500" color="white">
               <i className="fa-brands fa-twitter text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/tapgroofficial/">
             <IconButton placeholder="" variant="text" className="hover:text-orange-500" color="white">
-              <i className="fa-brands fa-linkedin text-2xl not-italic opacity-75"></i>
+              <i className="fa-brands fa-instagram text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/tapgroofficial/">
             <IconButton placeholder="" variant="text"className="hover:text-orange-500" color="white">
               <i className="fa-brands fa-facebook text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
-            <a href="">
-            <IconButton placeholder="" variant="text" className="hover:text-orange-500" color="white">
-              <i className="fa-brands fa-github text-2xl not-italic opacity-75"></i>
+            <a href="https://www.snapchat.com/add/tapgroofficial">
+            <IconButton placeholder="" variant="text"className="hover:text-orange-500" color="white">
+              <i className="fa-brands fa-snapchat text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
-            <a href="">
-            <IconButton placeholder="" variant="text" className="hover:text-orange-500" color="white">
-              <i className="fa-brands fa-dribbble text-2xl not-italic opacity-75"></i>
+            <a href="https://www.linkedin.com/company/tapgro">
+            <IconButton placeholder="" variant="text"className="hover:text-orange-500" color="white">
+              <i className="fa-brands fa-linkedin text-2xl not-italic opacity-75"></i>
+            </IconButton>
+            </a>
+            <a href="https://www.youtube.com/@tapgroofficial">
+            <IconButton placeholder="" variant="text"className="hover:text-orange-500" color="white">
+              <i className="fa-brands fa-youtube text-2xl not-italic opacity-75"></i>
             </IconButton>
             </a>
           </div>

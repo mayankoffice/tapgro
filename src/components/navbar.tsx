@@ -65,15 +65,15 @@ export function Navbar() {
       shadow={true}
       blurred={false}
       color={isScrolling ? "white" : "transparent"}
-      className="fixed top-3 left-0 right-0 mx-auto max-w-screen-xl z-50 border-0 rounded-xl"
+      className="fixed top-3 left-0 right-0 mx-auto max-w-screen-2xl z-50 border-0 rounded-xl"
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography
         placeholder=""
           as="a"
           href=""
-          variant="h6"
-          className="flex"
+          variant="h5"
+          className="flex pl-2"
           color={isScrolling ? "black" : "white"}
         >
           <Image
@@ -97,19 +97,19 @@ export function Navbar() {
         <div className="hidden gap-2 lg:flex lg:items-center">
           <a href="https://twitter.com/tapgroofficial" className="hover:translate-y-1" target="_blank">
             <IconButton
-            placeholder=""
+              placeholder=""
               variant="text"
-              color={isScrolling ? "gray" : "white"}
+              color={isScrolling ? "blue" : "white"}
               size="sm"
             >
-              <i className="fa-brands fa-twitter  text-base"/>
+              <i className="fa-brands fa-twitter text-base"></i>
             </IconButton>
           </a>
           <a href="https://www.instagram.com/tapgroofficial/" className="hover:translate-y-1" target="_blank">
             <IconButton
-            placeholder=""
+              placeholder=""
               variant="text"
-              color={isScrolling ? "gray" : "white"}
+              color={isScrolling ? "red" : "white"}
               size="sm"
             >
               <i className="fa-brands fa-instagram  text-base" />
@@ -119,10 +119,40 @@ export function Navbar() {
             <IconButton
             placeholder=""
               variant="text"
-              color={isScrolling ? "gray" : "white"}
+              color={isScrolling ? "blue" : "white"}
               size="sm"
             >
               <i className="fa-brands fa-facebook text-base" />
+            </IconButton>
+          </a>
+          <a href="https://www.snapchat.com/add/tapgroofficial" className="hover:translate-y-1" target="_blank">
+            <IconButton
+            placeholder=""
+              variant="text"
+              color={isScrolling ? "yellow" : "white"}
+              size="sm"
+            >
+              <i className="fa-brands fa-snapchat text-base" />
+            </IconButton>
+          </a>
+          <a href="https://www.linkedin.com/company/tapgro" className="hover:translate-y-1" target="_blank">
+            <IconButton
+            placeholder=""
+              variant="text"
+              color={isScrolling ? "blue" : "white"}
+              size="sm"
+            >
+              <i className="fa-brands fa-linkedin text-base" />
+            </IconButton>
+          </a>
+          <a href="https://www.youtube.com/@tapgroofficial" className="hover:translate-y-1" target="_blank">
+            <IconButton
+            placeholder=""
+              variant="text"
+              color={isScrolling ? "red" : "white"}
+              size="sm"
+            >
+              <i className="fa-brands fa-youtube text-base" />
             </IconButton>
           </a>
           <a href="#contact">
@@ -167,6 +197,16 @@ export function Navbar() {
             <a href="https://www.instagram.com/tapgroofficial/">
               <IconButton placeholder="" variant="text" color="gray" size="sm">
                 <i className="fa-brands fa-instagram text-base" />
+              </IconButton>
+            </a>
+            <a href="https://www.linkedin.com/company/tapgro">
+              <IconButton placeholder="" variant="text" color="gray" size="sm">
+                <i className="fa-brands fa-linkedin text-base" />
+              </IconButton>
+            </a>
+            <a href="https://www.instagram.com/tapgroofficial/">
+              <IconButton placeholder="" variant="text" color="gray" size="sm">
+                <i className="fa-brands fa-youtube text-base" />
               </IconButton>
             </a>
             <a href="" target="_blank">

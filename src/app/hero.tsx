@@ -27,9 +27,9 @@ function Hero() {
               color="white"
               className="text-left font-serif"
             >
-              Business Problems<span style={{ color: "red" }}>? </span>Solved
+              Business Problems<span style={{ color: "#FF2121" }}>? </span>Solved
               <span style={{ color: "#90EE90" }}>.</span>
-              <br />
+              <br/>
             </Typography>
             <span
               style={{ fontSize: "1.3rem", color: "white" }}
@@ -58,7 +58,7 @@ function Hero() {
           <Image
             width={470}
             height={576}
-            src="/image/heroImage.png"
+            src="/image/phones.png"
             alt="team work"
             className="col-span-1 my-20 h-full max-h-[28rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[38rem] lg:translate-y-0"
           />
@@ -68,16 +68,17 @@ function Hero() {
         className="container mx-auto mb-20 text-center mx-8 rounded-xl bg-white p-5 shadow-md font-serif text-black"
         style={{ marginTop: "-2rem" }}
       >
+        <h3 style={{ fontSize: "1.3rem",}} className="font-bold mb-6">A Software for</h3>
         <div>
           <div className="min-w-[350px] md:min-w-[700px] xl:min-w-[800px] grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-6 ">
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none hover:translate-y-1">
+            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
-                  <span className="flex items-center text-brand-500 dark:text-white">
+                  <span className="flex items-center text-brand-500 dark:text-white  hover:translate-x-1">
                     <Image
                       src="/icons/Beautyp.png"
-                      height={30}
-                      width={30}
+                      height={40}
+                      width={40}
                       alt=""
                     />
                   </span>
@@ -89,10 +90,10 @@ function Hero() {
                 </h4>
               </div>
             </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none hover:translate-y-1">
+            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
-                  <span className="flex items-center text-brand-500 dark:text-white">
+                  <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
                     <Image
                       src="/icons/salonss.png"
                       height={50}
@@ -108,14 +109,14 @@ function Hero() {
                 </h4>
               </div>
             </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none hover:translate-y-1">
+            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
-                  <span className="flex items-center text-brand-500 dark:text-white">
+                  <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
                     <Image
                       src="/icons/sapsss.png"
-                      height={30}
-                      width={30}
+                      height={40}
+                      width={40}
                       alt=""
                     />
                   </span>
@@ -127,14 +128,14 @@ function Hero() {
                 </h4>
               </div>
             </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none hover:translate-y-1">
+            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
-                  <span className="flex items-center text-brand-500 dark:text-white">
+                  <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
                     <Image
                       src="/icons/nailiconss.png"
-                      height={30}
-                      width={30}
+                      height={40}
+                      width={40}
                       alt=""
                     />
                   </span>
@@ -146,14 +147,14 @@ function Hero() {
                 </h4>
               </div>
             </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none hover:translate-y-1">
+            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
-                  <span className="flex items-center text-brand-500 dark:text-white">
+                  <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
                     <Image
-                      src="/icons/Tattoos.png"
-                      height={30}
-                      width={30}
+                      src="/icons/Tattoo.png"
+                      height={40}
+                      width={40}
                       alt=""
                     />
                   </span>
@@ -165,14 +166,14 @@ function Hero() {
                 </h4>
               </div>
             </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none hover:translate-y-1">
+            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
-                  <span className="flex items-center text-brand-500 dark:text-white">
+                  <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
                     <Image
                       src="/icons/makeupAr.png"
-                      height={30}
-                      width={30}
+                      height={40}
+                      width={40}
                       alt=""
                     />
                   </span>
