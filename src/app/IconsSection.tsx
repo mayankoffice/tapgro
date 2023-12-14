@@ -13,7 +13,7 @@ const MyIconsComponent: React.FC = () => {
       <div className="icons-container flex flex-wrap justify-center">
         {/* Individual icon with label */}
         <div className="flex flex-col items-center  sm:w-1/2 md:w-1/4 lg:w-1/4">
-          <Image src="/icons/i5.png" height={150} width={150} alt="Icon" className="icons drop-shadow-lg " />
+          <Image src="/icons/i6.png" height={150} width={150} alt="Icon" className="icons drop-shadow-lg " />
           <p className="text-center mt-2 font-bold">Appointments</p>
           
         </div>
