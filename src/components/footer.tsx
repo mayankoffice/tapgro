@@ -3,7 +3,6 @@ import Image from "next/image";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Typography, IconButton, Button } from "@material-tailwind/react";
 
-const LINKS = ["Home", "Features", "FAQ", "Contact Us"];
 const CURRENT_YEAR = new Date().getFullYear();
 export function Footer() {
   return (
@@ -33,21 +32,10 @@ export function Footer() {
               SAAS for beauty Industry
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
-              {LINKS.map((link, idx) => (
-                <li key={link}>
-                  <Typography
-                  placeholder=""
-                    as="a"
-                    href="#"
-                    color="white"
-                    className={`py-1 font-medium transition-colors hover:text-orange-500 ${
-                      idx === 0 ? "pr-3" : "px-3"
-                    }`}
-                  >
-                    {link}
-                  </Typography>
-                </li>
-              ))}
+                  <li><a className="text-white mr-2" href="#"> Home</a></li>
+                  <li><a className="text-white mr-2" href="#Features"> Features</a></li>
+                  <li><a className="text-white mr-2" href="#FAQ"> FAQ</a></li>
+                  <li><a className="text-white mr-2" href="#contact"> Contact Us</a></li>
             </ul>
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
@@ -92,8 +80,7 @@ export function Footer() {
             color="white"
             className="text-center font-normal opacity-75"
           >
-            &copy; {CURRENT_YEAR} Made by{" "}
-              TapGro Technologies Private Limited.
+            &copy; {CURRENT_YEAR} TapGro Technologies. All rights reserved
           </Typography>
           <div className="flex items-center">
             <a href="https://twitter.com/tapgroofficial">

@@ -7,9 +7,9 @@ export function Contact() {
         id="contact"
         className="font-bold text-5xl mt-5 tracking-tight text-center"
       >
-        Contact
+        Contact Us
       </h2>
-      <div className="mt-15 container mx-auto grid h-full w-full grid-cols-1  lg:mt-7 lg:grid-cols-2">
+      <div className="mt-15 container mx-auto grid h-full w-full grid-cols-1 lg:mt-7 lg:grid-cols-2">
         <div className="col-span-1">
           <form className="max-w-lg rounded-lg shadow-xl p-3 mx-auto">
             <div className="relative z-0 w-full mb-5 group">
@@ -93,11 +93,11 @@ export function Contact() {
         </div>
         <div>
           <iframe
-            className="mx-auto"
+            className="mx-auto shadow-xl m-5"
             title="Google Maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.067157807754!2d77.22800219999999!3d28.567745999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c093c824ef%3A0x1702277fda6152ad!2sTapGro!5e0!3m2!1sen!2sin!4v1702466049513!5m2!1sen!2sin"
             width="300"
-            height="350"
+            height="300"
             loading="lazy"
             style={{ borderRadius: "10px" }}
             referrerPolicy="no-referrer-when-downgrade"
