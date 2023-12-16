@@ -32,7 +32,7 @@ export function Footer() {
               SAAS for beauty Industry
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
-                  <li><a className="text-white mr-2" href="#"> Home</a></li>
+                  <li><a className="text-white mr-3" href="#"> Home</a></li>
                   <li><a className="text-white mr-2" href="#Features"> Features</a></li>
                   <li><a className="text-white mr-2" href="#FAQ"> FAQ</a></li>
                   <li><a className="text-white mr-2" href="#contact"> Contact Us</a></li>
