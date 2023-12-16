@@ -16,7 +16,7 @@ export function Contact() {
               <input
                 type="name"
                 name="name"
-                id="form-name"
+                id="name"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
@@ -33,14 +33,14 @@ export function Contact() {
               <input
                 type="tel"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                name="floating_phone"
-                id="floating_phone"
+                name="phone"
+                id="phone"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
               />
               <label
-                htmlFor="floating_phone"
+                htmlFor="phone"
                 className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Phone number
@@ -50,14 +50,14 @@ export function Contact() {
               <input
                 type="tel"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                name="floating_phone"
-                id="floating_phone"
+                name="loaction"
+                id="loaction"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
               />
               <label
-                htmlFor="floating_phone"
+                htmlFor="loaction"
                 className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Location
@@ -97,7 +97,7 @@ export function Contact() {
             title="Google Maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.067157807754!2d77.22800219999999!3d28.567745999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c093c824ef%3A0x1702277fda6152ad!2sTapGro!5e0!3m2!1sen!2sin!4v1702466049513!5m2!1sen!2sin"
             width="300"
-            height="300"
+            height="280"
             loading="lazy"
             style={{ borderRadius: "10px" }}
             referrerPolicy="no-referrer-when-downgrade"
