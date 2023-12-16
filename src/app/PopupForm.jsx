@@ -6,7 +6,6 @@ const PopupForm = ({ onClose }) => {
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
   return (
     <div className="popup">
       <div
