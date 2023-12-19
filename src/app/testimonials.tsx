@@ -11,21 +11,21 @@ const TESTIMONIALS = [
       "I am in beauty industry for 8 years and there has been no solution yet which solves our daily problems like maintaining registers, online promotions , etc. I am really excited about the features TapGro is providing and will surely use this software for our business once its launched.",
     client: "Imran",
     title: "Salon Owner @ Blunt",
-    img: "/image/imrann.png",
+    img: "/image/imranji.png",
   },
   {
     feedback:
       "All in one app which resolves our daily problems of client appointment, contact management, follow up, marketing, inventory management, etc at one place. I am eagerly waiting to use the app.",
     client: "Vikram",
     title: "Salon Manager @ Nayledit",
-    img: "/image/Vikram.png",
+    img: "/image/Vikramji.png",
   },
   {
     feedback:
       "Since 7 years I am running my salon and I face problems like maintaining registers, billing & Invoices, employee management. TapGro looks like a  game-changer app for our business as it is assuring to resolve all our problems & hence will surely try it.",
     client: "Dilip",
     title: "Salon Owner @ RD Nails",
-    img: "/image/Dilip.png",
+    img: "/image/Dilipji.png",
   },
 ];
 
