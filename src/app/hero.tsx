@@ -40,6 +40,7 @@ function Hero() {
                 Technology Assisting Professionals in Growth and Recurring
                 Revenue through Optimised Operations
               </p>
+              
             </span>
             <div>
               <Button
