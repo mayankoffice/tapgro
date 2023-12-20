@@ -28,7 +28,6 @@ function NavItem({ children, href }: NavItemProps) {
     </li>
   );
 }
-
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
   const [isScrolling, setIsScrolling] = React.useState(false);
