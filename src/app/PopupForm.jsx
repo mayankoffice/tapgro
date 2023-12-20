@@ -2,53 +2,42 @@ import React, { useState, useEffect } from "react";
 
 const PopupForm = ({ onClose }) => {
 
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    location: "",
-    company: "Select Business Categories:",
-  });
+    const [formData, setFormData] = useState({
+      name: '',
+      phone: '',
+      location: '',
+      business: '',
+    });
   
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [location, setLocation] = useState("");
-  const [company, setCompany] = useState("");
-
-  const handleSubmit = async () => {
-    // API integration
-    try {
-      let formdata = new FormData();
-      formdata.append("name", name);
-      formdata.append("phone", phone);
-      formdata.append("location", location);
-      formdata.append("company", company);
-      console.log("formdata ::::::", formdata);
-
-      const response = await fetch(
-        "http://dev.tapgro.com/api/V1/storeContact",
-        {
-          method: "POST",
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormData((prevData) => ({
+        ...prevData,
+        [name]: value,
+      }));
+    };
+  
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      try {
+        const response = await fetch('http://dev.tapgro.com/api/V1/storeContact', {
+          method: 'POST',
           headers: {
-            "Content-Type": "application/json",
+            'Content-Type': 'application/json',
           },
-          body: JSON.stringify(formdata),
+          body: JSON.stringify(formData),
+        });
+        if (response.ok) {
+          alert('Contact form submitted successfully!');
+        } else {
+          alert('Failed to submit contact form.');
         }
-      );
-      console.log("response ::::::", response);
-      if (response.ok) {
-        // Handle success, e.g., show a success message or redirect
-        alert("Form submitted successfully");
-      } else {
-        // Handle errors, e.g., show an error message
-        console.error("Form submission failed");
+      } catch (error) {
+        alert('Error submitting contact form:', error);
       }
-    } catch (error) {
-      alert("Error during form submission:", error);
-    }
-  };
-
-
-
+    };
+    
+  
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     setIsVisible(true);
@@ -66,10 +55,11 @@ const PopupForm = ({ onClose }) => {
               <input
                 type="text"
                 name="name"
+                value={formData.name} 
+                onChange={handleChange}
                 id="name"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=""
-                onChange={(e) => setName(e.target.value)}
                 required
               />
               <label
@@ -83,10 +73,11 @@ const PopupForm = ({ onClose }) => {
               <input
                 type="tel"
                 name="phone"
+                onChange={handleChange}
+                value={formData.phone} 
                 id="phone"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=""
-                onChange={(e) => setPhone(e.target.value)}
                 required
               />
               <label
@@ -99,9 +90,10 @@ const PopupForm = ({ onClose }) => {
             <div className="relative z-0 w-full mb-5 group">
               <input
                 type="text"
-                name="loaction"
-                id="loaction"
-                onChange={(e) => setLocation(e.target.value)}
+                name="location"
+                id="location"
+                value={formData.location} 
+                onChange={handleChange}
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
@@ -115,9 +107,10 @@ const PopupForm = ({ onClose }) => {
             </div>
             <div className="relative z-0 w-full mb-5 group">
               <select
-                onChange={(e) => setCompany(e.target.value)}
-                id="company"
-                name="company"
+                id="business"
+                name="business"
+                value={formData.business} 
+                onChange={handleChange}
                 className="block text-gray-500 dark:text-gray-400 py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 peer text-gray-500 dark:text-gray-400"
               >
                 <option value="Select Business Categories:">
