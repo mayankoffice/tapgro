@@ -27,7 +27,7 @@ function Hero() {
               color="white"
               className="text-left font-serif"
             >
-              Business Problem<span style={{ color: "#FF2121" }}>? </span>Solved
+              Business Problems<span style={{ color: "#FF2121" }}>? </span>Solved
               <span style={{ color: "#90EE90" }}>.</span>
               <br/>
             </Typography>
