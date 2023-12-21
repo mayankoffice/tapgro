@@ -13,6 +13,7 @@ interface NavItemProps {
   children: React.ReactNode;
   href?: string;
 }
+
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
