@@ -7,7 +7,6 @@ import PopupForm from "./PopupForm";
 
 function Hero() {
   const [isPopupOpen, setPopupOpen] = useState(false);
-
   const HeaderGradiantColor = {
     background: "linear-gradient(0deg, #0000FF 0%, #00ABFF 100%, #0000FF 100%)",
   };
@@ -106,7 +105,7 @@ function Hero() {
               </div>
               <div className="h-50 ml-4 flex w-auto flex-col justify-center">
                 <h4 className="text-xl font-bold text-navy-700 dark:text-white">
-                  Salon
+                  Salons
                 </h4>
               </div>
             </div>
