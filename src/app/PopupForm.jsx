@@ -33,7 +33,8 @@ const PopupForm = ({ onClose }) => {
           alert('Failed to submit contact form.');
         }
       } catch (error) {
-        alert('Error submitting contact form:', error);
+        console.error('Error submitting contact form:', error);
+        alert('Error submitting contact form. Please try again.');
       }
     };
     
@@ -50,7 +51,7 @@ const PopupForm = ({ onClose }) => {
           transition: "opacity 0.5s ease-in-out",
         }}
       >
-        <form className="max-w-lg rounded-lg shadow-xl p-3 mx-auto">
+        <form className="max-w-lg rounded-lg shadow-xl p-3 mx-auto" method="post">
             <div className="relative z-0 w-full mb-5 group">
               <input
                 type="text"
