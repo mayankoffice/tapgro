@@ -19,6 +19,8 @@ const PopupForm = ({ onClose }) => {
   
     const handleSubmit = async (e) => {
       e.preventDefault();
+      await new Promise(resolve => setTimeout(resolve, 4000));
+
       try {
         const response = await fetch('http://dev.tapgro.com/api/V1/storeContact', {
           method: 'POST',
@@ -27,6 +29,7 @@ const PopupForm = ({ onClose }) => {
           },
           body: JSON.stringify(formData),
         });
+    
         if (response.ok) {
           alert('Contact form submitted successfully!');
         } else {
