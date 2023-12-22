@@ -8,7 +8,6 @@ interface TestimonialCardProps {
   client: string;
   title: string;
 }
-
 export function TestimonialCard({
   img,
   feedback,
