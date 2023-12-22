@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Typography, IconButton, Button } from "@material-tailwind/react";

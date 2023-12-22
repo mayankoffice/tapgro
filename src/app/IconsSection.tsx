@@ -1,4 +1,4 @@
-"use client";
+// MyIconsComponent.tsx
 import React from 'react';
 import "./globals.css"
 import Image from 'next/image';
