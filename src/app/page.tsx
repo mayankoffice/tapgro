@@ -1,3 +1,4 @@
+"use client";
 import { Navbar, Footer } from "@/components";
 import Hero from "./hero";
 import VideoIntro from "./video-intro";
