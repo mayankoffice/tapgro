@@ -14,7 +14,6 @@ export default function Campaign() {
     <>
       <Navbar/>
       <Head>
-      <div>
   <meta name="title" content="India's No.1 Software for Beauty Business - Tapgro" />
   <meta name="description" content="Boost sales, manage staff, and streamline operations with TapGro's salon software. Grow your business with Tapgro today" />
   <meta name="keywords" content="tapgro, tapgroofficial, what is tapgro, is tapgro good, tapgro linked in, tapgro location, tapgro instagram, tapgro app, tapgro software , tapgro tool, tapgro website" />
@@ -33,11 +32,6 @@ export default function Campaign() {
   <meta name="twitter:title" content="Simplify Management, Supercharge Marketing with TapGro" />
   <meta name="twitter:description" content="Your key to boosting sales, managing staff, and thriving in your industry" />
   <meta name="twitter:image" content="https://tapgro.com/images/tapgro_logo.png" />
-  {/* Google tag (gtag.js) */}
-  
-</div>
-
-
       </Head>
       <Hero/>
       <VideoIntro/>
