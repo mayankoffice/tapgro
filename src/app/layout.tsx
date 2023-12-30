@@ -72,6 +72,8 @@ export default function RootLayout({
     />
 
     <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+    
+    
   </head>
       <body className={roboto.className}>
         <Layout>{children}</Layout>
