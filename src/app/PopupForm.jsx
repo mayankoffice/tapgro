@@ -19,6 +19,7 @@ const PopupForm = ({ onClose }) => {
   
     const handleSubmit = async (e) => {
       e.preventDefault();
+    
       try {
         const response = await fetch('http://dev.tapgro.com/api/V1/storeContact', {
           method: 'POST',
@@ -27,15 +28,21 @@ const PopupForm = ({ onClose }) => {
           },
           body: JSON.stringify(formData),
         });
+    
+        const responseData = await response.json();
+    
         if (response.ok) {
           alert('Contact form submitted successfully!');
+          // Optionally, you can handle the response data here
+          console.log(responseData);
         } else {
-          alert('Failed to submit contact form.');
+          alert('Failed to submit contact form. Server response: ' + responseData.message);
         }
       } catch (error) {
-        alert('Error submitting contact form:', error);
+        alert('Error submitting contact form: ' + error.message);
       }
     };
+    
     
   
   const [isVisible, setIsVisible] = useState(false);
