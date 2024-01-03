@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Typography, Button } from "@material-tailwind/react";
-import PopupForm from "./PopupForm";
 
 function Hero() {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -26,9 +25,10 @@ function Hero() {
               color="white"
               className="text-left font-serif"
             >
-              Business Problems<span style={{ color: "#FF2121" }}>? </span>Solved
+              Business Problems<span style={{ color: "#FF2121" }}>? </span>
+              Solved
               <span style={{ color: "#90EE90" }}>.</span>
-              <br/>
+              <br />
             </Typography>
             <span
               style={{ fontSize: "1.3rem", color: "white" }}
@@ -39,20 +39,19 @@ function Hero() {
                 Technology Assisting Professionals in Growth and Recurring
                 Revenue through Optimised Operations
               </p>
-              
             </span>
             <div>
+              <a href="#contact">
               <Button
+                
                 placeholder=""
                 size="lg"
                 color="orange"
-                onClick={openPopup}
                 className="flex justify-center items-center gap-3 hover:translate-y-1 mt-5"
               >
                 Join The Wishlist
               </Button>
-
-              {isPopupOpen && <PopupForm onClose={closePopup} />}
+              </a>
             </div>
           </div>
           <Image
@@ -68,7 +67,9 @@ function Hero() {
         className="container mx-auto mb-20 text-center mx-8 rounded-xl bg-white p-5 shadow-md font-serif text-black"
         style={{ marginTop: "-2rem" }}
       >
-        <h3 style={{ fontSize: "1.3rem",}} className="font-bold mb-6">A Software for</h3>
+        <h3 style={{ fontSize: "1.3rem" }} className="font-bold mb-6">
+          A Software for
+        </h3>
         <div>
           <div className="min-w-[350px] md:min-w-[700px] xl:min-w-[800px] grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-6 ">
             <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">

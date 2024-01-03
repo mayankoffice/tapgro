@@ -1,53 +1,6 @@
 "use client";
 
-// import { useState } from "react";
-
 export function Contact() {
-  // const [formData, setFormData] = useState({
-  //   name: "",
-  //   phone: "",
-  //   location: "",
-  //   company: "Select Business Categories:",
-  // });
-  
-  // const [name, setName] = useState("");
-  // const [phone, setPhone] = useState("");
-  // const [location, setLocation] = useState("");
-  // const [company, setCompany] = useState("");
-
-  // const handleSubmit = async () => {
-  //   // API integration
-  //   try {
-  //     let formdata = new FormData();
-  //     formdata.append("name", name);
-  //     formdata.append("phone", phone);
-  //     formdata.append("location", location);
-  //     formdata.append("company", company);
-  //     console.log("formdata ::::::", formdata);
-
-  //     const response = await fetch(
-  //       "http://dev.tapgro.com/api/V1/storeContact",
-  //       {
-  //         method: "POST",
-  //         headers: {
-  //           "Content-Type": "application/json",
-  //         },
-  //         body: JSON.stringify(formdata),
-  //       }
-  //     );
-  //     console.log("response ::::::", response);
-  //     if (response.ok) {
-  //       // Handle success, e.g., show a success message or redirect
-  //       alert("Form submitted successfully");
-  //     } else {
-  //       // Handle errors, e.g., show an error message
-  //       console.error("Form submission failed");
-  //     }
-  //   } catch (error) {
-  //     console.error("Error during form submission:", error);
-  //     alert(`Error during form submission: ${error}`)
-  //   }
-  // };
 
   return (
     <div className="place-items-center">
@@ -55,8 +8,8 @@ export function Contact() {
         id="contact"
         className="font-bold text-5xl mt-5 tracking-tight text-center"
       >
-        Contact Us
-      </h2>
+        Join the waiting list
+              </h2>
       <div className="mt-15 container mx-auto grid h-full w-full grid-cols-1 lg:mt-7 lg:grid-cols-2">
         <div className="col-span-1">
           <form className="max-w-lg rounded-lg shadow-xl p-3 mx-auto">
@@ -67,7 +20,6 @@ export function Contact() {
                 id="name"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=""
-                // onChange={(e) => setName(e.target.value)}
                 required
               />
               <label
@@ -84,7 +36,6 @@ export function Contact() {
                 id="phone"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=""
-                // onChange={(e) => setPhone(e.target.value)}
                 required
               />
               <label
@@ -99,7 +50,6 @@ export function Contact() {
                 type="text"
                 name="loaction"
                 id="loaction"
-                // onChange={(e) => setLocation(e.target.value)}
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                 placeholder=" "
                 required
@@ -113,7 +63,6 @@ export function Contact() {
             </div>
             <div className="relative z-0 w-full mb-5 group">
               <select
-                // onChange={(e) => setCompany(e.target.value)}
                 id="company"
                 name="company"
                 className="block text-gray-500 dark:text-gray-400 py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 peer text-gray-500 dark:text-gray-400"
@@ -132,7 +81,6 @@ export function Contact() {
             </div>
             <button
               type="submit"
-              // onClick={handleSubmit}
               className="text-white ml-2 bg-orange-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Submit
