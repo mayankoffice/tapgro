@@ -6,9 +6,9 @@ export function Contact() {
     <div className="place-items-center">
       <h2
         id="contact"
-        className="font-bold text-5xl mt-5 tracking-tight text-center"
+        className="font-bold text-3xl mt-5 tracking-tight text-center"
       >
-        Join the waiting list
+        Complete the form for free early access of Tapgro.
               </h2>
       <div className="mt-15 container mx-auto grid h-full w-full grid-cols-1 lg:mt-7 lg:grid-cols-2">
         <div className="col-span-1">
