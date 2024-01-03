@@ -8,7 +8,7 @@ export function Contact() {
         id="contact"
         className="font-bold text-3xl mt-5 tracking-tight text-center"
       >
-        Complete the form for free early access of Tapgro.
+        Complete the form for free early access of TapGro.
               </h2>
       <div className="mt-15 container mx-auto grid h-full w-full grid-cols-1 lg:mt-7 lg:grid-cols-2">
         <div className="col-span-1">
