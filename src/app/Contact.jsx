@@ -9,19 +9,32 @@ export function Contact() {
   const [location, setLocation]=useState('');
   const [company, setCompany]=useState('');
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
+
     const data = {
-      name: name,
-      phone: phone,
-      location:location,
-      company:company
+      Name: name,
+      Phone: phone,
+      Location:location,
+      Company:company
     };
+
+    var mobileNumberPattern = /^\d{10}$/;
+    if (!mobileNumberPattern.test(phone)) {
+        alert('Please enter a valid 10-digit mobile number.');
+        return;
+    }
+
+    const nameRegex = /^[A-Za-z\s]+$/;
+    if (!nameRegex.test(name)) {
+      alert('Please enter a valid name with alphabets and spaces only.');
+      return;
+    }
 
     axios.post('https://sheet.best/api/sheets/b304d009-864c-4663-a063-34c7978bc5e7', data)
       .then((response) => {
         console.log(response);
+        alert(`${name} Your form is Submited Successfully`)
       })
       .catch((error) => {
         console.error('Error sending data:', error);
@@ -29,7 +42,7 @@ export function Contact() {
   };
 
   return (
- 
+
     <div className="place-items-center">
       <h2
         id="contact"
@@ -106,8 +119,8 @@ export function Contact() {
                   Select Business Categories:
                 </option>
                 <option value="Beauty Parlour">Beauty Parlour</option>
-                <option value="Salon Services">Salon Services</option>
-                <option value="SPA Services">SPA Services</option>
+                <option value="Salon Services">Salon</option>
+                <option value="SPA Services">SPA</option>
                 <option value="Nail Studio">Nail Studio</option>
                 <option value="Tatto & Piercing Studio">
                   Tatto & Piercing Studio

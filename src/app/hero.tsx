@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Typography, Button } from "@material-tailwind/react";
+import Link from "next/link";
 
 function Hero() {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -72,7 +73,7 @@ function Hero() {
         </h3>
         <div>
           <div className="min-w-[350px] md:min-w-[700px] xl:min-w-[800px] grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-6 ">
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+            <Link href='#contact' className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
                   <span className="flex items-center text-brand-500 dark:text-white  hover:translate-x-1">
@@ -90,8 +91,8 @@ function Hero() {
                   Beauty Parlour
                 </h4>
               </div>
-            </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+            </Link>
+            <Link href='#contact' className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
                   <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
@@ -109,8 +110,8 @@ function Hero() {
                   Salons
                 </h4>
               </div>
-            </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+            </Link>
+            <Link href='#contact' className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
                   <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
@@ -128,8 +129,8 @@ function Hero() {
                   SPA
                 </h4>
               </div>
-            </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+            </Link>
+            <Link href='#contact' className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
                   <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
@@ -147,8 +148,8 @@ function Hero() {
                   Nail Studio
                 </h4>
               </div>
-            </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+            </Link>
+            <Link href='#contact' className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
                   <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
@@ -166,8 +167,8 @@ function Hero() {
                   Tattoo & Piercing Studio
                 </h4>
               </div>
-            </div>
-            <div className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
+            </Link>
+            <Link href='#contact' className="relative flex flex-grow !flex-row flex-col items-center rounded-[10px] rounded-[10px] border-[1px] border-gray-200 bg-white bg-clip-border shadow-md shadow-[#F3F3F3] dark:border-[#ffffff33] dark:!bg-navy-800 dark:text-white dark:shadow-none">
               <div className="ml-[18px] flex h-[90px] w-auto flex-row items-center">
                 <div className="rounded-full bg-lightPrimary p-3 dark:bg-navy-700">
                   <span className="flex items-center text-brand-500 dark:text-white hover:translate-x-1">
@@ -185,7 +186,7 @@ function Hero() {
                   Indiviual Artists
                 </h4>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
